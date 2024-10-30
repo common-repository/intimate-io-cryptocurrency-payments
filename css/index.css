@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+}
+
+.address-select {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom:  20px;
+}
+
+.form-group label {
+  min-width: 50px !important;
+}
+
+.form-group > .inline-block {
+  border-right-width: 0 !important;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.qr-confirmation-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.qr-confirmation-wrapper .confirmation {    
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.qr-confirmation-wrapper .confirmation h4 {  
+  padding-top: 16px;  
+}
+
+.qr-confirmation-wrapper .confirmation h3 {
+  padding-top: 0;
+}
+
+#qrcode {
+  height: 200px !important;
+}
